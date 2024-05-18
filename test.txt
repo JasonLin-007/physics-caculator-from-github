@@ -12,7 +12,7 @@ ki = mfast*mslow/msum*((vfast-vslow)**2) /2
 print("\ninternal kinetic energy = %f J" % ki)
 
 #caculate the velocity after collision
-vfast = ((mfast-mslow)*vfast+2*mslow*vslow)/msum
-vslow = ((mslow-mfast)*vslow+2*mfast*vfast)/msum
+vfastafter = ((mfast-mslow)*vfast+2*mslow*vslow)/msum
+vslowafter = ((mslow-mfast)*vslow+2*mfast*vfast)/msum
 print("velocity of the faster ball after cllision = %f m/s" % vfast)
 print("velocity of the slower ball after cllision = %f m/s" % vslow)
